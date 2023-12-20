@@ -37,7 +37,7 @@ function remove(id){
 
 <template>
   <main>    
-    <input v-model="title" placeholder="Title" />
+    <input v-model="title" placeholder="Title" class="border" />
     <template v-if="!editId">
       <button @click="add">Add</button>
     </template>
